@@ -14,7 +14,7 @@ node {
                         //script {def encodedPassword = URLEncoder.encode("$GIT_PASSWORD",'UTF-8')}
                         //script  {def IMAGE='ooghenekaro/amazon'}
                         sh "git config user.email onomzy2016@gmail.com"
-                        sh "git config user.name onomzy"
+                        sh "git config user.name onomzy084"
                         //sh "git switch master"
                         sh "cat deployment.yml"
                         sh "sed -i 's+${IMAGE}.*+${IMAGE}:${DOCKERTAG}+g' deployment.yml"
