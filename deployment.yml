@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: onomzy2021/amazon:latest
+        image: onomzy2021/amazon:7
         ports:
         - containerPort: 3000
         
